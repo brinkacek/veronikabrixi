@@ -53,11 +53,11 @@ NAV = [
     ("blog", "Blog", "/blog/", []),
 ]
 
+# Logo – symbol srdce s lístkem (hlavní identita značky)
 LEAF = ('<svg width="{s}" height="{s}" viewBox="0 0 64 64" aria-hidden="true">'
-        '<path d="M31 60C31 46 30 32 34 10" fill="none" stroke="{c}" stroke-width="3" stroke-linecap="round"/>'
-        '<ellipse cx="22" cy="42" rx="10" ry="4.6" transform="rotate(-32 22 42)" fill="{c}"/>'
-        '<ellipse cx="42" cy="31" rx="10" ry="4.6" transform="rotate(32 42 31)" fill="{c}"/>'
-        '<ellipse cx="25" cy="20" rx="8.5" ry="4" transform="rotate(-48 25 20)" fill="{a}"/></svg>')
+        '<path d="M32 54C15 43 7 33 7 22C7 14 13 9 20 9C25.5 9 29.5 12.5 32 16.5C34.5 12.5 38.5 9 44 9C51 9 57 14 57 22C57 33 49 43 32 54Z" fill="none" stroke="{c}" stroke-width="3" stroke-linejoin="round"/>'
+        '<path d="M25 43C23 32 29.5 24.5 42.5 21C44 33 38 40.5 25 43Z" fill="{a}"/>'
+        '<path d="M25 43L38 27" stroke="#F7F2EA" stroke-width="1.6" stroke-linecap="round"/></svg>')
 
 ICONS = {
     "arrow": '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
