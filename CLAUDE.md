@@ -19,8 +19,10 @@ Tento repozitář je web **Veroniky Brixí**, výživové poradkyně a terapeutk
 2. Uprav zdroje v `_build/…`, spusť `python3 _build/build.py`.
 3. Zkontroluj `git diff` — mění se jen to, co Veronika chtěla.
 4. Pushni větev a otevři **pull request** do `main` s českým názvem a krátkým popisem změn srozumitelným pro Veroniku.
-5. Netlify k pull requestu za 1–2 minuty vytvoří náhled na adrese `https://deploy-preview-<číslo PR>--veronikabrixi.netlify.app`. Pošli Veronice odkaz na náhled a konkrétní stránku, kde změnu uvidí.
+5. Netlify k pull requestu za 1–2 minuty vytvoří náhled na adrese `https://deploy-preview-<číslo PR>--veronikabrixi.netlify.app`. Pošli Veronice odkaz na náhled a konkrétní stránku, kde změnu uvidí. Před odesláním ověř, že kontrola Netlify u pull requestu prošla (zelená fajfka) a náhled se otevře.
 6. **Sluč do `main` jen tehdy, když to Veronika výslovně potvrdí** („ano, nasaď“, „pusť to ven“ apod.). Sloučením jde změna naostro.
+7. **Když se náhled nevytvoří** (u pull requestu je červený křížek nebo „Deploy Preview failed“), **nic neslučuj**, ani kdyby o to Veronika žádala. Řekni jí jednoduše, že se náhled nepodařilo vytvořit a ať dá vědět Martinovi. Pull request nech otevřený.
+8. Po sloučení zkontroluj, že se změna za pár minut objevila na https://veronikabrixi.cz. Pokud ne, řekni Veronice, ať dá vědět Martinovi.
 
 Když si nejsi jistý, co přesně chce, nejdřív se zeptej. Raději jedna otázka navíc než špatná změna na živém webu.
 
