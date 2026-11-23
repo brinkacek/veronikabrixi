@@ -84,7 +84,8 @@ Pokud Veronika chce, abys článek napsal: piš v první osobě jejím hlasem (�
 Drž stávající design, neměň barvy, písma ani rozložení, pokud o to Veronika výslovně nepožádá.
 
 - Barvy (proměnné v `css/style.css`): šalvějová `#4A6741` (hlavní), terakota `#A9532F` (akcent), krémové pozadí `#F7F2EA`, text `#22261F`.
-- Písma: **DM Serif Display** (nadpisy, podle identity pro sociální sítě), **DM Sans** (text) — hostovaná lokálně ve `fonts/`.
+- Písma: **DM Serif Display** (nadpisy), **DM Sans** (text) — hostovaná lokálně ve `fonts/`.
+- Logo: symbol **srdce s lístkem** (zelené srdce, terakotový lístek) — `LEAF` v `_build/build.py`, `img/favicon.svg` a ikony z něj vygenerované. Vychází z hlavní identity značky (Claude Design „Veronika Brixí – identita značky“), ze které se odvozuje i identita pro sociální sítě.
 - Používej existující třídy (`card`, `checks`, `steps`, `faq`, `btn btn-primary`, `callout`, `prose`…). Ikony jako tenké SVG, **žádné emoji**.
 - Web musí fungovat na mobilu. Po vizuální změně zkontroluj šířku 375 px i desktop.
 
