@@ -1,0 +1,46 @@
+<!--{"file":"kontakt.html","path":"/kontakt","priority":"0.8","nav":"kontakt","noCta":true,
+"title":"Kontakt | Veronika Brixí — naturopatie a výživa, Říčany a online",
+"description":"Kontaktujte Veroniku Brixí: konzultace@veronikabrixi.cz, +420 723 263 623. Konzultace online, ve Studiu Moksha v Říčanech a v Zahradách Myšlín u Mnichovic.",
+"eyebrow":"Kontakt","h1":"Napište mi",
+"lead":"Ráda vám odpovím na otázky nebo domluvím konzultaci. Obvykle odpovídám do 24–48 hodin.",
+"crumbs":[["Úvod","/"],["Kontakt","/kontakt"]],
+"schema":[{"@type":"ContactPage","url":"https://veronikabrixi.cz/kontakt","about":{"@id":"https://veronikabrixi.cz/#business"}}]}-->
+<section class="section" style="padding-top:0">
+  <div class="wrap split split--top split--contact">
+    <div class="stack" style="gap:32px">
+      <p>Napište mi e-mail, zavolejte nebo vyplňte formulář. Nebojte se zeptat na cokoliv — ráda vysvětlím, jak spolupráce probíhá a která forma konzultace by pro vás byla nejvhodnější.</p>
+      <ul class="contact-list">
+        <li><span class="icon-box">{{icon:mail}}</span><span><small>E-mail</small><a href="mailto:konzultace@veronikabrixi.cz">konzultace@veronikabrixi.cz</a></span></li>
+        <li><span class="icon-box">{{icon:phone}}</span><span><small>Telefon</small><a href="tel:+420723263623">+420 723 263 623</a></span></li>
+        <li><span class="icon-box">{{icon:pin}}</span><span><small>Místa konzultací</small>Online · Studio Moksha Říčany · Zahrady Myšlín u Mnichovic · další místa po dohodě</span></li>
+        <li><span class="icon-box">{{icon:insta}}</span><span><small>Instagram</small><a href="https://www.instagram.com/veronika.zdravi.celostne/" rel="noopener" target="_blank">@veronika.zdravi.celostne</a></span></li>
+      </ul>
+      <p class="muted">Než napíšete, možná najdete odpověď v <a href="/caste-dotazy">častých dotazech</a>.</p>
+    </div>
+    <form class="form" name="contact" method="POST" action="/kontakt?odeslano=1" data-netlify="true" netlify-honeypot="bot-field">
+      <h2 style="font-size:1.7rem">Zpráva pro Veroniku</h2>
+      <p class="form-ok" role="status" tabindex="-1">Děkuji, zpráva je odeslaná. Ozvu se vám do 24–48 hodin.</p>
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hp"><label>Nevyplňujte <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <div class="field"><label for="f-name">Jméno a příjmení *</label><input id="f-name" type="text" name="name" required autocomplete="name"></div>
+      <div class="field"><label for="f-email">E-mail *</label><input id="f-email" type="email" name="email" required autocomplete="email"></div>
+      <div class="field"><label for="f-phone">Telefon (nepovinné)</label><input id="f-phone" type="tel" name="phone" autocomplete="tel"></div>
+      <div class="field"><label for="f-topic">S čím vám mohu pomoci?</label>
+        <select id="f-topic" name="topic">
+          <option value="">Vyberte téma</option>
+          <option data-key="uvodni">Úvodní komplexní konzultace</option>
+          <option data-key="program">3měsíční program</option>
+          <option data-key="akutni">Akutní dotaz</option>
+          <option data-key="suplementace">Chytrá suplementace</option>
+          <option data-key="dna">DNA Health</option>
+          <option data-key="krev">Rozbor krevních výsledků</option>
+          <option data-key="stolice">Test ze stolice</option>
+          <option data-key="prednaska">Přednáška nebo workshop pro firmu</option>
+          <option>Jiné</option>
+        </select></div>
+      <div class="field"><label for="f-msg">Zpráva *</label><textarea id="f-msg" name="message" required placeholder="Napište, co řešíte nebo na co se chcete zeptat."></textarea></div>
+      <button class="btn btn-primary" type="submit">Odeslat zprávu {{icon:arrow}}</button>
+      <p class="fine">Údaje použiji pouze k tomu, abych vám mohla odpovědět.</p>
+    </form>
+  </div>
+</section>

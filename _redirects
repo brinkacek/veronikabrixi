@@ -1,0 +1,10 @@
+# Zrušené a přejmenované stránky
+/pruvodce-jidelnickem        /3-mesicni-program   301
+/pruvodce-jidelnickem.html   /3-mesicni-program   301
+/spravce-vb2025              /                    301
+/spravce-vb2025.html         /                    301
+# Staré URL článků z Wixu
+/post/*                      /blog/post/:splat    301
+# Zdrojové soubory generátoru nejsou veřejné
+/_build/*                    /404.html            404!
+/CLAUDE.md                   /404.html            404!
