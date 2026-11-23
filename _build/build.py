@@ -39,11 +39,11 @@ PERSON = SITE + "/#veronika"
 NAV = [
     ("o-mne", "O mně", "/o-mne", []),
     ("sluzby", "Služby", "/sluzby", [
-        ("uvodni", "Úvodní komplexní konzultace", "/uvodni-komplexni-konzultace", "90 min · 1 990 Kč"),
+        ("uvodni", "Úvodní komplexní konzultace", "/uvodni-komplexni-konzultace", "90 min"),
         ("program", "3měsíční program", "/3-mesicni-program", "Postupné změny s podporou"),
-        ("akutni", "Akutní dotaz", "/akutni-dotaz", "Rychlá odpověď · 400 Kč"),
-        ("suplementace", "Chytrá suplementace", "/chytra-suplementace", "Doplňky na míru · 990 Kč"),
-        ("krev", "Rozbor krevních výsledků", "/mini-rozbor-krevnich-vysledku", "Výsledky lidsky · 500 Kč"),
+        ("akutni", "Akutní dotaz", "/akutni-dotaz", "Rychlá odpověď"),
+        ("suplementace", "Chytrá suplementace", "/chytra-suplementace", "Doplňky na míru"),
+        ("krev", "Rozbor krevních výsledků", "/mini-rozbor-krevnich-vysledku", "Výsledky lidsky"),
     ]),
     ("testy", "Testy", "/testy", [
         ("dna", "DNA Health", "/dna-test", "Genetický test · 9 990 Kč"),
