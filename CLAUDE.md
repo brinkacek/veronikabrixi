@@ -15,16 +15,18 @@ Tento repozitář je web **Veroniky Brixí**, výživové poradkyně a terapeutk
 
 ## Pracovní postup (vždy)
 
-1. Vytvoř novou větev (např. `uprava-ceny-akutni-dotaz`). **Nikdy necommituj ani nepushuj přímo do `main`.**
+Změny se publikují **rovnou na živý web** — Veronika náhled ani potvrzení nechce.
+
+1. Vytvoř novou větev (např. `uprava-ceny-akutni-dotaz`).
 2. Uprav zdroje v `_build/…`, spusť `python3 _build/build.py`.
 3. Zkontroluj `git diff` — mění se jen to, co Veronika chtěla.
-4. Pushni větev a otevři **pull request** do `main` s českým názvem a krátkým popisem změn srozumitelným pro Veroniku.
-5. Netlify k pull requestu za 1–2 minuty vytvoří náhled na adrese `https://deploy-preview-<číslo PR>--veronikabrixi.netlify.app`. Pošli Veronice odkaz na náhled a konkrétní stránku, kde změnu uvidí. Před odesláním ověř, že kontrola Netlify u pull requestu prošla (zelená fajfka) a náhled se otevře.
-6. **Sluč do `main` jen tehdy, když to Veronika výslovně potvrdí** („ano, nasaď“, „pusť to ven“ apod.). Sloučením jde změna naostro.
-7. **Když se náhled nevytvoří** (u pull requestu je červený křížek nebo „Deploy Preview failed“), **nic neslučuj**, ani kdyby o to Veronika žádala. Řekni jí jednoduše, že se náhled nepodařilo vytvořit a ať dá vědět Martinovi. Pull request nech otevřený.
-8. Po sloučení zkontroluj, že se změna za pár minut objevila na https://veronikabrixi.cz. Pokud ne, řekni Veronice, ať dá vědět Martinovi.
+4. Pushni větev, otevři **pull request** do `main` s českým názvem a krátkým popisem změn a **hned ho sluč** (nečekej na Veroničino potvrzení). Sloučením jde změna naostro.
+5. Za 1–2 minuty ověř, že se změna objevila na https://veronikabrixi.cz. Pak Veronice napiš, co jsi změnil, a pošli odkaz na konkrétní stránku, kde to uvidí.
+6. Pokud se změna na webu neobjeví (Netlify u pull requestu nebo u commitu v `main` hlásí chybu, červený křížek), řekni Veronice jednoduše, že se změnu nepodařilo zveřejnit, a ať dá vědět Martinovi.
 
-Když si nejsi jistý, co přesně chce, nejdřív se zeptej. Raději jedna otázka navíc než špatná změna na živém webu.
+Výjimka: když Veronika sama řekne, že chce změnu nejdřív vidět, pull request nesluč a pošli jí odkaz na náhled `https://deploy-preview-<číslo PR>--veronikabrixi.netlify.app`. Sluč až po jejím potvrzení.
+
+Když si nejsi jistý, co přesně chce, nejdřív se zeptej — změna jde hned naostro.
 
 ## Kde co měnit
 
