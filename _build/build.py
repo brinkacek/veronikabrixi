@@ -207,7 +207,7 @@ def head(meta, canonical, og_image, schema):
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/dm-serif-display.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="/css/style.css?v={ASSET_V}">
 <script src="/js/main.js?v={ASSET_V}" defer></script>
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(",", ":"))}</script>
